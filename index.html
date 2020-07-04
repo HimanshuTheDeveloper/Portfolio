@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="item"style="height:120px;">
+            <img src="assets/profile-image.jpg" id="profile-image">
+        </div>
+        <div class="item">
+            <h2 id="name"><span>Himanshu</span></h2>
+        </div>
+        <div class="item" id="item-role">
+            <h4 id="title"><span id="role">Freelancer</span></h4>
+            <p></p>
+        </div>
+        <div class="item">
+            <input type="button" id="btn" value="PORTFOLIO" onclick="window.location='./portfolio.html';">
+        </div>
+        <div class="item display">
+            <div class="social">
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=100012281280606"><i class="fa fa-facebook-square link" aria-hidden="true"></i></a>
+                    
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/himanshu-singh-14956b1a1/"><i class="fa fa-linkedin-square link" aria-hidden="true"></i></a>
+                    
+                </div>
+                <div>
+                    <a href="https://github.com/himanshu32301"> <i class="fa fa-github-square link" aria-hidden="true"></i></a>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+<script>   
+    setInterval(()=>{
+        changeRole();
+    }, 4000);
+</script>
+
+</html>
