@@ -3,12 +3,12 @@
     font-family: 'Ubuntu', sans-serif;
 }
 body{
-    background:silver;
+    background:aqua;
 }
 .container{
     width:300px;
     height: 450px;
-    background:silver;
+    background:aqua;
     border: outset;
     display:flex;
     flex-direction:column;

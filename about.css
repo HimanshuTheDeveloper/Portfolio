@@ -299,10 +299,13 @@ div.btn
     .personalInfo img
     {
         display: none;
+     
+
     }
     .personalInfo .info
     {
         margin: 0 auto;
+        text-align: center;
         
     }
     .personalInfo .info p
@@ -367,7 +370,7 @@ div.btn
     }
     .personalInfo .info p
     {
-        margin-left: 10px;
+        margin:0 40px;
         font-size: 14px;
     }
 }
