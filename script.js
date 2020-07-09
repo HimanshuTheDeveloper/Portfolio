@@ -2,7 +2,9 @@ const roles = [
     "Freelancer",
     "Programmer",
     "Web Developer",
-    "Graphic Designer"
+    "Graphic Designer",
+    "Game Developer",
+    "Tuitor"
 ];
 const currentRole = document.querySelector('#role');
 let roleIndex = 0;
